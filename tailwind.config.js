@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      container:{
+       padding:{
+        DEFAULT:"2rem",
+        md:"4rem"
+       }
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -26,6 +32,7 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          blue:"#000E5C"
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

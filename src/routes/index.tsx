@@ -50,7 +50,7 @@ const Routes = () => {
           element: <Messages />,
         },
         {
-          path: "peer",
+          path: "peer/*",
           element: <Peer />,
         },
         {

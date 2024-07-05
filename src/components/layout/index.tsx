@@ -9,7 +9,9 @@ const Layout: React.FC<{
   return (
     <>
       <div className="flex h-screen overflow-hidden gap-5">
+        <div className="hidden md:block">
         <Sidebar />
+        </div>
         <main className="overflow-y-scroll flex-1">
           <Header />
           <Outlet />
